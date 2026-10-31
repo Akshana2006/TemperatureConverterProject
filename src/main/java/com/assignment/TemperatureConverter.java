@@ -3,17 +3,17 @@ package com.assignment;
 public class TemperatureConverter {
 
     public double celsiusToFahrenheit(double celsius) {
-        double fahrenheit =  (celsius * 9.0 / 5.0) + 32;
-        return fahrenheit;
+        return (celsius * 9.0 / 5.0) + 32;
+
     }
 
     public double fahrenheitToCelsius(double fahrenheit) {
-        double celsius =  (fahrenheit - 32) * 5.0 / 9.0;
-        return celsius;
+        return (fahrenheit - 32) * 5.0 / 9.0;
+
     }
 
     public double celsiusToKelvin(double celsius) {
-        double kelvin = celsius + 273.15;
-        return kelvin;
+        return celsius + 273.15;
+
     }
 }
