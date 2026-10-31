@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class TemperatureConverterTest {
-
+    //creating converter object
     private final TemperatureConverter converter = new TemperatureConverter();
     private final double delta = 0.001;
 
